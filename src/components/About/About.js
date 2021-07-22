@@ -1,4 +1,3 @@
-import { Container, Navbar, NavDropdown, Nav } from "react-bootstrap"
 import "./About.css"
 
 const About = () => {
