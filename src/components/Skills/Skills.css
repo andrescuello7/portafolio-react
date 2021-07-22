@@ -1,0 +1,30 @@
+.SkillsImgs{
+    width: 60px;
+    height: 30px;
+}
+.SkillsDates{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Skills{
+    display: flex;
+    justify-content: space-evenly;
+}
+.SkillsImgsCuadrado{
+    margin: 0 2%;
+    width: 30px;
+    height: 30px;
+}
+.SkillsCard{
+    width: 30rem;
+}
+@media (max-Width: 780px){
+    .SkillsCard{
+        width: 10rem;
+    }
+    .Skills{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
