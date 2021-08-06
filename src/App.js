@@ -8,7 +8,7 @@ import Home from "../src/pages/home";
 function App() {
   return (
     <>
-      <div>
+      <div className="navbarHome sticky-top">
         <Navbar />
       </div>
       <div>

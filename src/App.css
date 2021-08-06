@@ -1,0 +1,28 @@
+.navbarHome{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.navbarTitle{
+    font-size: 20px;
+    color: rgb(18, 18, 19);
+}
+.navbarTitle:hover{
+    color: rgb(2, 98, 207);
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+.contactForm{
+    margin-top: 3%;
+    width: 50%;
+}
+@media (max-Width: 780px){
+    .contactForm{
+        margin-top: 3%;
+        width: 95%;
+    }
+}

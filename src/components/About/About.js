@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="AboutText m-2">
                     <h2>I'm Andres Cuello</h2>
-                    <div>began my career as a frontend developer in the 2020 year and have slowly over time taken on a more web based technical front-end developer role. work in details that many frontend developers tend to overlook. Being a hybrid frontend dev and technician with knowledge in digital content allows me to fill two roles simultaneously, which in today’s economy can be very beneficial to any company. Having studied at Coder house and done real projects has given me a wealth of knowledge and a diverse skill set to be able to tackle any development project that comes my way.</div>
+                    <div>Hello, I am programer Frontend Junior and Backend Developer, i am programing from april of 2020, i have mys studies of Rolling Code School, they taught me of Html5, Css, Bootstrap, Git, JavaScript, ReactJs, NodeJs, MongoDb and work in team, in this moment i am working of freelance.</div>
                 </div>
             </div>
         </div>
