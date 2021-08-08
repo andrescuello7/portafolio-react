@@ -22,10 +22,10 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#home" onClick={() => btnBorder()} className={borderButton}>Home</Nav.Link>
-                            <Nav.Link href="#about" onClick={() => btnBorder()} className={borderButton}>About</Nav.Link>
-                            <Nav.Link href="#skills" onClick={() => btnBorder()} className={borderButton}>Skills</Nav.Link>
-                            <Nav.Link href="#contact" onClick={() => btnBorder()} className={borderButton}>Contact</Nav.Link>
+                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#skills">Skills</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

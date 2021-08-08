@@ -8,16 +8,16 @@ import Footer from "../components/Footer/FooterSimple";
 const Home = () => {
     return (
         <div>
-            <div className="animate__animated animate__fadeIn">
+            <div className="animate__animated animate__fadeIn" id="home">
                 <Present />
             </div>
-            <div className="animate__animated animate__fadeIn">
+            <div className="animate__animated animate__fadeIn" id="about">
                 <About />
             </div>
-            <div className="animate__animated animate__fadeIn">
+            <div className="animate__animated animate__fadeIn" id="skills">
                 <Skills />
             </div>
-            <div className="animate__animated animate__fadeIn">
+            <div className="animate__animated animate__fadeIn" id="contact">
                 <Contact />
             </div>
             <div className="animate__animated animate__fadeIn mt-5">
