@@ -7,15 +7,13 @@ import Navbar from "../src/components/Navbar/Navbar";
 import Home from "../src/pages/home";
 
 function App() {
-  const [navbar, setNavbar] = useState("home");
-  console.log(navbar)
   return (
     <>
       <div className="navbarHome sticky-top">
-        <Navbar setNavbar={setNavbar}/>
+        <Navbar/>
       </div>
       <div>
-        <Home navbar={navbar}/>
+        <Home/>
       </div>
     </>
   );
