@@ -5,11 +5,12 @@ import axios from "axios";
 const Home = () => {
     //States
     const [dataInputConsults, setDataInputConsults] = useState({});
-  
+
     //Funcion of method Post of consults
     const ConsultsOfUser = async () => {
       try {
-        await axios.post("http://localhost:5000/api/consult", dataInputConsults);
+        await axios.post("https://server-gmail.herokuapp.com/api/consult", dataInputConsults);
+        //await axios.post("http://localhost:5000/api/consult", dataInputConsults);
         console.log('consulta enviada');
       } catch (error) {
         console.log(error);
@@ -22,7 +23,6 @@ const Home = () => {
       const changedInput = { ...dataInputConsults, [name]: value };
       setDataInputConsults(changedInput);
     };
-    console.log(dataInputConsults)
     return (
         <div className="about">
             <div className="AboutTitle text-primary">
@@ -32,7 +32,7 @@ const Home = () => {
                 <div className="contactForm">
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Control name="nombre" type="text" onChange={HandleChange} placeholder="Name and surname"/>
+                            <Form.Control type="text" placeholder="Name and surname"/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Control name="email" type="email" onChange={HandleChange} placeholder="Email address"/>
