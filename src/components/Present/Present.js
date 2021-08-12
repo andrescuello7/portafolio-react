@@ -13,19 +13,19 @@ const Present = () => {
                 <Carousel>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 rounded-3"
                             src={perfil}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 rounded-3"
                             src={perfil2}
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100 rounded-3"
                             src={perfil3}
                         />
                     </Carousel.Item>
