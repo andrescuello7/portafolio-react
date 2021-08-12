@@ -1,3 +1,4 @@
+//Import react
 import { Carousel } from "react-bootstrap"
 import "./Present.css"
 
@@ -5,6 +6,7 @@ import "./Present.css"
 import perfil from "../../img/perfil.jpg"
 import perfil2 from "../../img/perfil2.jpg"
 import perfil3 from "../../img/perfil3.png"
+import perfil4 from "../../img/perfil4.jpeg"
 
 const Present = () => {
     return (

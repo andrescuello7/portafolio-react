@@ -5,6 +5,7 @@ import "./Jobs.css"
 import Urban from "../../img/Urban.png"
 import Radio from "../../img/Radio.png"
 import Movie from "../../img/Movies.png"
+import Immedit from "../../img/Immedit.png"
 
 const Jobs = () => {
     return (
@@ -14,7 +15,7 @@ const Jobs = () => {
             </div>
             <div className="Jobs mt-5">
                 <div>
-                    <Card className="cardJob mt-2" style={{ width: '20rem' }}>
+                    <Card className="cardJob mt-2">
                         <a href="https://radio-web-1.herokuapp.com">
                             <Card.Img variant="top" src={Radio} />
                         </a>
@@ -23,7 +24,7 @@ const Jobs = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <Card className="cardJob mt-2" style={{ width: '20rem' }}>
+                <Card className="cardJob mt-2">
                     <a href="https://client-andromeda.herokuapp.com">
                         <Card.Img variant="top" src={Urban} />
                     </a>
@@ -31,12 +32,20 @@ const Jobs = () => {
                         <Card.Title>Urban City</Card.Title>
                     </Card.Body>
                 </Card>
-                <Card className="cardJob mt-2" style={{ width: '20rem' }}>
+                <Card className="cardJob mt-2">
                     <a>
                         <Card.Img variant="top" src={Movie} />
                     </a>
                     <Card.Body>
                         <Card.Title>Movies Api</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="cardJob mt-2">
+                    <a>
+                        <Card.Img variant="top" src={Immedit} />
+                    </a>
+                    <Card.Body>
+                        <Card.Title>Immedit</Card.Title>
                     </Card.Body>
                 </Card>
             </div>

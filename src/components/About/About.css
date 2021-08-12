@@ -18,6 +18,7 @@
     border-radius: 1rem;
 }
 .AboutText{
+    color: rgba(43, 39, 39, 0.87);
     font-family: 'Titillium Web', sans-serif;
     font-size: 17px;
     width: 40%;
