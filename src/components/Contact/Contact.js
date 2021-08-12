@@ -28,7 +28,7 @@ const Home = () => {
         setDataInputConsults(changedInput);
     };
     return (
-        <div className="about">
+        <div className="about dateContact">
             <div className="AboutTitle text-primary">
                 <b className="border-bottom border-primary border-3">Contact</b>
             </div>

@@ -8,6 +8,9 @@
 .navbarTitle:hover{
     color: rgb(2, 98, 207);
 }
+.homePadding{
+    padding: 0%;
+}
 .contact{
     width: 100%;
     display: flex;
@@ -24,5 +27,21 @@
     .contactForm{
         margin-top: 3%;
         width: 95%;
+    }
+    .contact{
+        margin-top: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+    }
+    .dateContact{
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+    .dateSkills{
+        margin-top: 25%;
     }
 }
