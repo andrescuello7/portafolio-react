@@ -6,6 +6,7 @@ import Urban from "../../img/Urban.png"
 import Radio from "../../img/Radio.png"
 import Movie from "../../img/Movies.png"
 import Immedit from "../../img/Immedit.png"
+import Commers from "../../img/e-commers.png"
 
 const Jobs = () => {
     return (
@@ -13,10 +14,10 @@ const Jobs = () => {
             <div className="AboutTitle text-primary">
                 <b className="border-bottom border-primary border-3">Jobs</b>
             </div>
-            <div className="Jobs mt-5">
+            <div className="Jobs">
                 <div>
-                    <Card className="cardJob mt-2">
-                        <a href="https://radio-web-1.herokuapp.com">
+                    <Card className="cardJob mt-5">
+                        <a>
                             <Card.Img variant="top" src={Radio} />
                         </a>
                         <Card.Body>
@@ -24,7 +25,7 @@ const Jobs = () => {
                         </Card.Body>
                     </Card>
                 </div>
-                <Card className="cardJob mt-2">
+                <Card className="cardJob mt-5">
                     <a href="https://client-andromeda.herokuapp.com">
                         <Card.Img variant="top" src={Urban} />
                     </a>
@@ -32,7 +33,7 @@ const Jobs = () => {
                         <Card.Title>Urban City</Card.Title>
                     </Card.Body>
                 </Card>
-                <Card className="cardJob mt-2">
+                <Card className="cardJob mt-5">
                     <a>
                         <Card.Img variant="top" src={Movie} />
                     </a>
@@ -40,12 +41,20 @@ const Jobs = () => {
                         <Card.Title>Movies Api</Card.Title>
                     </Card.Body>
                 </Card>
-                <Card className="cardJob mt-2">
+                <Card className="cardJob mt-5">
                     <a>
                         <Card.Img variant="top" src={Immedit} />
                     </a>
                     <Card.Body>
                         <Card.Title>Immedit</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="cardJob mt-5">
+                    <a href="https://e-commers-pi.vercel.app">
+                        <Card.Img variant="top" src={Commers} />
+                    </a>
+                    <Card.Body>
+                        <Card.Title>e-commers</Card.Title>
                     </Card.Body>
                 </Card>
             </div>
