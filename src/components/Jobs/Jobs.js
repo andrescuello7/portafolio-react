@@ -7,6 +7,7 @@ import Radio from "../../img/Radio.png"
 import Movie from "../../img/Movies.png"
 import Immedit from "../../img/Immedit.png"
 import Commers from "../../img/e-commers.png"
+import Evenly from "../../img/evenly.png"
 
 const Jobs = () => {
     return (
@@ -47,6 +48,14 @@ const Jobs = () => {
                     </a>
                     <Card.Body>
                         <Card.Title>Immedit</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="cardJob mt-5">
+                    <a href="https://reverent-hodgkin-c945af.netlify.app">
+                        <Card.Img variant="top" src={Evenly} />
+                    </a>
+                    <Card.Body>
+                        <Card.Title>Evenly</Card.Title>
                     </Card.Body>
                 </Card>
                 <Card className="cardJob mt-5">
