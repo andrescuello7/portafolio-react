@@ -10,12 +10,28 @@ const About = () => {
                 <div className="m-2">
                     <img
                         className="AboutImg"
-                        src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                        src="https://a-static.besthdwallpaper.com/computador-de-casa-papel-pintado-2560x1440-16849_51.jpg"
                     />
                 </div>
                 <div className="AboutText m-2">
-                    <h2>I'm Andres Cuello</h2>
-                    <div>Hello, I am programer Frontend Junior and Backend Developer, i am programing from april of 2020, i have mys studies of Rolling Code School, they taught me of Html5, Css, Bootstrap, Git, JavaScript, ReactJs, NodeJs, MongoDb and work in team, in this moment i am working of freelance.</div>
+                    <div>
+                        <h2>I'm Andres Cuello</h2>
+                        <div>Hello, I am programer Frontend Junior and Backend Developer, i am programing from april of 2020, i have mys studies of Rolling Code School, they taught me of Html5, Css, Bootstrap, Git, JavaScript, ReactJs, NodeJs, MongoDb and work in team, in this moment i am working of freelance.</div>
+                    </div>
+                    <div className="mt-5 social">
+                        <a href="https://www.facebook.com/andres.cuello.14/">
+                            <span className="fab fa-facebook-f icon-favicon"></span>
+                        </a>
+                        <a href="https://www.instagram.com/4ndres_cuello/?hl=es">
+                            <span className="fab fa-instagram icon-favicon"></span>
+                        </a>
+                        <a href="https://github.com/andrescuello7">
+                            <span className="fab fa-github icon-favicon"></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/silvio-andres-cuello-a9a1b11bb/">
+                            <span className="fab fa-linkedin icon-favicon"></span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
