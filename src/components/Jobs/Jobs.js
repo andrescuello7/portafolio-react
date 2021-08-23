@@ -27,7 +27,7 @@ const Jobs = () => {
                     </Card>
                 </div>
                 <Card className="cardJob mt-5">
-                    <a href="https://client-andromeda.herokuapp.com">
+                    <a href="https://client-andromeda.vercel.app">
                         <Card.Img variant="top" src={Urban} />
                     </a>
                     <Card.Body>
