@@ -1,14 +1,19 @@
 //Import react
-import { Carousel } from "react-bootstrap"
+import { useEffect, useState } from 'react'
+import { init } from 'ityped'
 import "./Present.css"
 
 //Img for present
 import perfil from "../../img/perfil.jpg"
-import perfil2 from "../../img/perfil2.jpg"
-import perfil3 from "../../img/perfil3.png"
-import perfil4 from "../../img/perfil4.jpeg"
 
 const Present = () => {
+    useEffect(() => {
+        componentDidMount()
+    }, [])
+    const componentDidMount = () => {
+        const myElement = document.querySelector('#myElement')
+        init(myElement, { showCursor: false, strings: ['Andres Cuello', 'Programer'] })
+    }
     return (
         <div className="carrucel">
             <div className="CarrucelWidth">
@@ -19,7 +24,12 @@ const Present = () => {
             </div>
             <div className="CarrucelText">
                 <div>
-                    Hi, I am <i className="text-primary">Andres Cuello</i>, I am programer Full Stack Junior Developer.
+                    <div>
+                        I am <i className="text-primary" id="myElement"></i>
+                    </div>
+                    <div>
+                        Full Stack Junior Developer.
+                    </div>
                 </div>
                 <div className="social">
                     <a href="https://www.facebook.com/andres.cuello.14/">

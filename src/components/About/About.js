@@ -1,6 +1,16 @@
+//Components for about
+import { useEffect, useState } from 'react'
+import { init } from 'ityped'
 import "./About.css"
 
 const About = () => {
+    useEffect(() => {
+        componentDidMount()
+    }, [])
+    const componentDidMount = () => {
+        const Element = document.querySelector('#Element')
+        init(Element, { showCursor: false, strings: ['I am Andres Cuello'] })
+    }
     return (
         <div className="about">
             <div className="AboutTitle text-primary">
@@ -15,7 +25,7 @@ const About = () => {
                 </div>
                 <div className="AboutText m-2">
                     <div>
-                        <h2>I'm Andres Cuello</h2>
+                        <h2 id="Element"></h2>
                         <div>Hello, I am programer Frontend Junior and Backend Developer, i am programing from april of 2020, i have mys studies of Rolling Code School, they taught me of Html5, Css, Bootstrap, Git, JavaScript, ReactJs, NodeJs, MongoDb and work in team, in this moment i am working of freelance.</div>
                     </div>
                 </div>
