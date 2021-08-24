@@ -17,6 +17,8 @@
     height: 30px;
 }
 .SkillsCard{
+    display: flex;
+    justify-content: center;
     width: 30rem;
 }
 @media (max-Width: 780px){

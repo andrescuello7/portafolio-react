@@ -12,7 +12,7 @@ const Present = () => {
     }, [])
     const componentDidMount = () => {
         const myElement = document.querySelector('#myElement')
-        init(myElement, { showCursor: false, strings: ['Andres Cuello', 'Programer'] })
+        init(myElement, { showCursor: false, strings: ['Andres Cuello', 'Developer'] })
     }
     return (
         <div className="carrucel">
@@ -28,7 +28,7 @@ const Present = () => {
                         I am <i className="text-primary" id="myElement"></i>
                     </div>
                     <div>
-                        Full Stack Junior Developer.
+                        Full Stack Junior.
                     </div>
                 </div>
                 <div className="social">

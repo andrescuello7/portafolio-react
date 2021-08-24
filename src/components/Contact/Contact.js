@@ -54,7 +54,7 @@ const Home = () => {
                             <Form.Control name="email" type="email" onChange={HandleChange} placeholder="Email address" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Control name="description" as="textarea" onChange={HandleChange} placeholder="When is your question?" />
+                            <Form.Control name="description" as="textarea" onChange={HandleChange} placeholder="What is your question?" />
                         </Form.Group>
                         <Button className="btn btn-primary w-100" onClick={ConsultsOfUser}><b>Send</b></Button>
                     </Form>
