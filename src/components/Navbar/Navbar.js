@@ -9,7 +9,7 @@ const Header = () => {
         clickme } = UseCss();
     return (
         <div>
-            <Navbar>
+            <Navbar bg="light" expand="lg">
                 <Container>
                     <Nav.Link href="#home" className="navbarTitle">Andres Cuello</Nav.Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
