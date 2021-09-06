@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { init } from 'ityped'
 import "./Present.css"
+import UseCss from "../../UseForm/UseCss"
 
 //Img for present
 import perfil from "../../img/perfil.jpg"
@@ -14,6 +15,11 @@ const Present = () => {
         const myElement = document.querySelector('#myElement')
         init(myElement, { showCursor: false, strings: ['Andres Cuello', 'Developer'] })
     }
+    const {
+        btnBorder,
+        borderButton,
+        setClickme,
+        clickme } = UseCss();
     return (
         <div className="carrucel">
             <div className="CarrucelWidth">

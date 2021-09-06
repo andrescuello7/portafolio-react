@@ -1,3 +1,7 @@
+.body{
+    background-color: rgba(14, 13, 13, 0.863);
+    color: rgb(255, 255, 255);
+}
 .navbarHome{
     font-family: 'Chakra Petch', sans-serif;
 }

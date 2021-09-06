@@ -51,7 +51,7 @@ const Jobs = () => {
                     </Card.Body>
                 </Card>
                 <Card className="cardJob mt-5">
-                    <a href="https://reverent-hodgkin-c945af.netlify.app">
+                    <a href="https://admiring-stonebraker-a257df.netlify.app">
                         <Card.Img variant="top" src={Evenly} />
                     </a>
                     <Card.Body>

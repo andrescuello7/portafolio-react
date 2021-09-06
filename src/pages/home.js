@@ -5,10 +5,12 @@ import Skills from "../components/Skills/Skills";
 import Jobs from "../components/Jobs/Jobs";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/FooterSimple";
+import UseCss from "../UseForm/UseCss"
 
 const Home = () => {
+    const { borderButton } = UseCss();
     return (
-        <div className="homePadding">
+        <div className={borderButton}>
             <div className="animate__animated animate__fadeIn mt-2" id="home">
                 <Present />
             </div>
